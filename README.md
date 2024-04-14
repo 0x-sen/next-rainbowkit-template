@@ -1,29 +1,38 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
-
-## Getting Started
-
-First, run the development server:
+## Run
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+## How the template build
 
-To learn more about this stack, take a look at the following resources:
 
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
+```bash
+yarn create @rainbow-me/rainbowkit
+```
 
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
+```bash
+yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier --dev
+```
 
-## Deploy on Vercel
+```bash
+yarn eslint --init
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✔ How would you like to use ESLint? · style
+✔ What type of modules does your project use? · esm
+✔ Which framework does your project use? · react
+✔ Does your project use TypeScript? · typescript
+✔ Where does your code run? · browser
+✔ Which style guide do you want to follow? · standard
+✔ Would you like to install them now? · No / Yes
+✔ Which package manager do you want to use? · yarn
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+add .eslintrc
+
+add .prettierrc
